@@ -1,0 +1,189 @@
+* {
+    outline: none !important;
+}
+
+a, a:hover{
+    text-decoration: none !important;
+    color: inherit;
+}
+
+@media (max-width: 576px){
+      body {
+           margin-top: 56px;
+      }
+}
+
+body {
+     background-color: #eee;
+}
+
+svg {
+       flex-shrink: 0;
+}
+
+.pointer, .pointer * {
+      cursor: pointer;
+
+}
+
+.label-custom {
+      color: #2c2c31;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+      background-color: rgb(255, 255, 255);
+      box-shadow: rgba(153, 153, 153, 0.2) 0px 2px 4px 0px;
+      border-radius: 3px;
+      border:none;
+}
+
+.dialog {
+  width: 400px;
+  max-width: 100%;
+}
+
+.account-avatar {
+      color: #1e88e5 !important;
+      background-color: #bbdefb !important; 
+}
+
+.header {
+     border-bottom: 2px solid rgb(229,229,299);
+}
+
+.header .nav-link {
+     font-weight: 600;
+     color: #555 !important;
+     padding: 28px 1.5rem !important;
+     border: 0;
+     border-bottom: 2px solid transparent;
+}
+
+.header .nav-link:hover {
+    border-bottom: 2px solid #1976d2;
+
+}
+
+.header .nav-link .icon-lg{
+    font-size: 22px;
+}
+
+.header .dropdown:hover > .dropdown-menu{
+      display:block;
+}
+
+.header .dropdown-menu {
+    box-shadow: rgba(0,0,0,0.3) 0px  4px 16px 0px, rgba(0,0,0,0.3) 0px 3px 6px 0px;
+    border: 1px solid #eee;
+    top: 80%;
+}
+
+.header .dropdown-item {
+     padding: 10px 15px;
+     font-weight: 600;
+     color: #444;
+
+}
+
+.logo-mobile {
+     max-height: 50px !important;
+}
+
+.menu-mobile .MuiListItemText-primary {
+     font-weight: 600;
+     color: #444;
+}
+
+.menu-mobile svg{
+     font-size: 22px;
+     color: #444;
+}
+.vehicle-img {
+      min-width: 180px;
+      min-height: 135px;
+}
+
+@media (max-width: 576px){
+      .vehicle-img {
+        min-width: 100px !important;
+        min-height: 75px !important; 
+      }
+
+      .vehicle-img img {
+            max-width: 100px;          
+      }
+      .MuiMenu-paper {
+            position: fixed !important;
+            top: auto !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            max-width: 100% !important;
+            border-radius: 0 !important;
+      }
+      .MuiMenu-paper ~ div::before {
+            content: "";
+            z-index: -1;
+            position: fixed;
+            inset: 0px;
+            background-color: rgba(0, 0, 0, 0.5);
+          
+      }
+}
+
+.MuiMenuItem-root {
+     padding-top: 9px !important;
+     padding-bottom: 9px !important;
+     font-weight: 500 !important;
+}
+
+.scroll, .scroll-form {
+       height: calc(100vh - 64);
+       overflow-x: hidden;
+       overflow-y: auto;
+       margin-top: 64px;
+}
+
+.scroll-form {
+       height: calc(100vh - 140px);
+       margin-bottom: 76px;
+}
+
+.notes .form{
+      position: absolute;
+      bottom:0;
+      width: 100%;
+      background-color: #fff;
+      padding: 5px 15px 15px;
+}
+
+.notes .send {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+}
+
+.notes .bg-selected {
+      background-color: #eee;
+      opacity: 0.5;
+}
+
+.fab-bottom-right {
+       position: absolute !important;
+       bottom: 16px;
+       right: 16px;
+}
+
+.cvv_info:after {
+      content: '';
+      display: block;
+      position: absolute;
+      right: 8px;
+      top: 17px;
+      width: 37px;
+      height: 25px;
+      background: url('/src/payment-screen-sprites.png') -737px 0 no-repeat;
+
+  }
