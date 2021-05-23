@@ -18,6 +18,8 @@ Sistema e site revendas de veiculos
 
 - Mercado Pago
 
+- Material UI 
+
 🚀 Ao clonar este projeto digite os seguintes comandos
 
 COMPOSER INSTALL | YARN INSTALL OR NPM INSTALL
