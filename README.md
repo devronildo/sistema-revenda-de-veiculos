@@ -3,7 +3,7 @@
 
 Sistema e site revendas de veiculos
 
--- Aplicação Multi-Tenancy um sistema para Revenda de Veículos bem completo onde cada Revenda terá seu próprio site e gestão de clientes.
+* Aplicação Multi-Tenancy um sistema para Revenda de Veículos bem completo onde cada Revenda terá seu próprio site e gestão de clientes.
 
 Tecnologias utilizadas neste projeto:
 
